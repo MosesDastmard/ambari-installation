@@ -5,13 +5,14 @@
 Here we will describe how to install Ambari on cluster of machines whether they are hosted by cloud-provider or you setup your cluster on single machine but several VMs using VMWare or Virtual Box. Following steps help you out with having Ambari installed on your cluster.
 
 What you will do:
-1- Install Ambari(HDP) using command line
-2- Install Ambari on a cluster (Not a single machine)
-3- Cluster can b hosted on cloud (Recommended) or locally - if you want to run at least two VMs locally, make sure you have 15Gb free RAM each.
-4- You will install Ambari on CentOS6 - DON'T try other version of CentOS
-5- Take care not all the command should run on all machines, BE Carefull you run the righ command for different machines.
-6- We will call the machine run Ambari server, M1 and all the remain machine M2, M3, .... You will have two group of machines {M1, [M2, M3, ...]}
-
+\begin{itemize} 
+\item Install Ambari(HDP) using command line
+\item Install Ambari on a cluster (Not a single machine)
+\item Cluster can b hosted on cloud (Recommended) or locally - if you want to run at least two VMs locally, make sure you have 15Gb free RAM each.
+\item You will install Ambari on CentOS6 - DON'T try other version of CentOS
+\item Take care not all the command should run on all machines, BE Carefull you run the righ command for different machines.
+\item We will call the machine run Ambari server, M1 and all the remain machine M2, M3, .... You will have two group of machines {M1, [M2, M3, ...]}
+\end{itemize}.
 
 
 ####### Install CentOS 6.10
