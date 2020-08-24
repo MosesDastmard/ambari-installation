@@ -14,7 +14,7 @@ What you will do:
 \item We will call the machine run Ambari server, M1 and all the remain machine M2, M3, .... You will have two group of machines {M1, [M2, M3, ...]}
 \end{itemize}.
 
-__`Usage instructions (should you want to execute our code):`__
+```command
 
        ####### Install CentOS 6.10
        Download centos image 6.10 DVD1 ~ 3.5GB
@@ -188,3 +188,4 @@ __`Usage instructions (should you want to execute our code):`__
        su - hdfs
        hadoop fs -mkdir /user/admin
        hadoop fs -chown admin:hadoop /user/admin
+```
